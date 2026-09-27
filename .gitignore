@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+
+# Build and Bundle Outputs
+dist/
+out/
+*.vsix
+
+# TypeScript / esbuild artifacts
+*.tsbuildinfo
+.esbuild/
+
+# Testing & Coverage outputs
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment and Local Configs
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code - Ignore local user state, but keep shared settings/launch files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
